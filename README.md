@@ -57,9 +57,9 @@ requirements.txt
  https://api-squaduni.herokuapp.com/api/register/
  
     {
-    "username": "Daniel",
+    "username": "admin",
     "password": "admin",
-    "email":"daniellindao@gmail.com"
+    "email":"marcoslindao@gmail.com"
     }
     
 ## POST LOGOUT_USER
