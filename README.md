@@ -2,11 +2,11 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/SquadUninove/API/blob/main/LICENSE) 
 
-## Api do sistema de cardapio para restaurantes!
+## Rota DE LOGIN/CREATE/LOGOUT de uma API!
 
 ## Sobre o Projeto
 
-Back-end do sistema de cardápio para restaurantes, 
+Back-end de um sistema, 
 desenvolvido para a aula de Projetos do curso de ADS da Universidade Nove de Julho
 
 
@@ -43,56 +43,6 @@ requirements.txt
 
 
 # Documentação das Rotas
-
-# Rotas-prato
-## GET LIST_PRATOS
- https://api-squaduni.herokuapp.com/pratos
-
-    [
-    {
-        "id": 1,
-        "nome": "Baiao de dois",
-        "preco": "25.90",
-        "descricao": "fritas, salada e farofa"
-    },
-    {
-        "id": 2,
-        "nome": "Macarrao",
-        "preco": "25.90",
-        "descricao": "fritas e salada"
-    }
-    ]
-    
-## POST CREATE_PRATOS
- https://api-squaduni.herokuapp.com/pratos/create/
-    
-    {
-          "nome": "Baiao de dois",
-          "preco": "25.90",
-          "descricao": "fritas e salada"
-    }
-    
- 
-   
-## PUT UPDATE_PRATOS
- https://api-squaduni.herokuapp.com/pratos/update/1/ 
-
-    {
-        "id": 1,
-        "nome": "Baiao de dois",
-        "preco": "25.90",
-        "descricao": "fritas, salada e farofa"
-    }
-   
-## DELETE UPDATE_PRATOS
- https://api-squaduni.herokuapp.com/pratos/delete/1/   
-
-  
-## GET DETAIL_PRATOS
- https://api-squaduni.herokuapp.com/pratos/1/
-
-
-
 
 # Rotas-user
 ## POST LOGIN_USER
